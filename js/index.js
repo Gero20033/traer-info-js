@@ -24,7 +24,7 @@ fetch(
         </a>
         `
     }
-    generosDetalles.innerHTML= infoPopulares
+    generosDetalles.innerHTML = infoPopulares
 })
 .catch(function(error){
     console.log("Error: " + error);
